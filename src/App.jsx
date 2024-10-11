@@ -11,7 +11,6 @@ function App() {
     <RouterProvider router={publicRoutes}>
 
     </RouterProvider>
-     <h1 className='active-heading'>Hello world</h1>
     </>
   )
 }

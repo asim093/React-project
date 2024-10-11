@@ -1,5 +1,16 @@
 @import "./theme.scss";
 
-.active-heading{
+.active-heading {
     color: $Primarycolor;
+}
+
+
+// bootstrap form control avoid 
+
+.form-control:focus {
+    color           : var(--bs-body-color);
+    background-color: transparent !important;
+    border-color    : none !important;
+    outline         : 0;
+    box-shadow      : none !important;
 }
