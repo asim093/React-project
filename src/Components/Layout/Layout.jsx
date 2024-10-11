@@ -3,12 +3,12 @@ import Topbar from '../Header/Topbar'
 import Navbar from '../Header/Navbar'
 import Footer from '../Footer/Footer'
 
-const PageLayout = ({Children}) => {
+const PageLayout = ({children}) => {
   return (
     <>
     <Topbar/>
     <Navbar/>
-    {Children}
+    {children}
     <Footer/>
     </>
   )

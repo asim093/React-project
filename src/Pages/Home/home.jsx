@@ -7,7 +7,9 @@ import PageLayout from '../../Components/Layout/Layout'
 const HomePage = () => {
   return (
     <>
-   <PageLayout/>
+   <PageLayout>
+    
+   </PageLayout>
     </>
   )
 }
